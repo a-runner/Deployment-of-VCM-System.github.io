@@ -327,11 +327,11 @@
 
 The system architecture consists of three core components:
 
-Edge Development Board: On the terminal side, high-resolution images are captured and processed locally. Utilizing a learning-based encoder optimized for machine vision tasks, the system transforms raw pixels into highly compressed bitstreams, significantly reducing data volume while preserving critical features.
+<li>Edge Development Board: On the terminal side, high-resolution images are captured and processed locally. Utilizing a learning-based encoder optimized for machine vision tasks, the system transforms raw pixels into highly compressed bitstreams, significantly reducing data volume while preserving critical features.</li>
 
-Transmission Module: The generated bitstreams are delivered through a robust transmission layer. This module ensures stable and low-latency data migration between the edge device and the remote infrastructure, managing network protocols to maintain bitstream integrity.
+<li>Transmission Module: The generated bitstreams are delivered through a robust transmission layer. This module ensures stable and low-latency data migration between the edge device and the remote infrastructure, managing network protocols to maintain bitstream integrity.</li>
 
-Server-side Reconstruction: Upon receiving the bitstream, the server-side architecture employs a corresponding deep-learning-based decoder to reconstruct the images. This centralized processing allows for high-fidelity reconstruction and provides the necessary visual or feature-based data for downstream AI analysis.
+<li>Server-side Reconstruction: Upon receiving the bitstream, the server-side architecture employs a corresponding deep-learning-based decoder to reconstruct the images. This centralized processing allows for high-fidelity reconstruction and provides the necessary visual or feature-based data for downstream AI analysis.</li>
 
 Experimental results demonstrate that this distributed deployment effectively balances the computational load between edge and cloud, showcasing the feasibility of machine-intelligence-oriented codecs in real-world IoT and surveillance scenarios.
           </p>
